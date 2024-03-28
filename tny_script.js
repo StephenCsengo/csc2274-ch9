@@ -9,6 +9,10 @@
    Date:   3/28/2024
 
 */
+/*Execute the function to run and display the countdown clock*/
+runClock();
+setInterval("runClock()", 1000);
+
 /*Function to create and run the countdown clock*/
 function runClock() {
   /* Store the current date and time */
